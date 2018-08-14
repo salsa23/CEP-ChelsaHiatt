@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chelsa Hiatt - CEP Engineering Application</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="init.js"></script>
+  </head>
+  <body style="background-color: lightblue">
+    <div>
+      <h1> All About Me</h1>
+      <p>So you want to know more about me? Welcome to the place to do so! <br><br>Click on the buttons below to find out everything you want to know!</p>
+      <img src="assets/me.jpg" alt="Chelsa Hiatt" height="250" width = "250">
+      <div>
+        <!--<button type = "button" onclick="getElementById("results").value = "person.firstName"">First Name</button>-->
+        <button type = "button" id=fName >First Name</button>
+        <button type = "button" id=lName >Last Name</button>
+        <button type = "button" id=job >Job Title</button>
+        <button type = "button" id=office >Home Office</button>
+        <button type = "button" id=more >Tell Me More</button><br><br>
+      </div>
+      <p>
+        <input type="text" id="results" name="results" size="140" readonly value = "Click on a button above...." style = "padding-top:25px">
+      </p>
+    </div>
+    <script src="init.js"></script>
+  </body>
+</html>
